@@ -1,187 +1,142 @@
-[09Apr2025 18:43:31.870] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-[09Apr2025 18:43:31.874] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.14 by Ubuntu
-[09Apr2025 18:43:31.977] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/PeruCraftX/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[09Apr2025 18:43:32.015] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/PeruCraftX/servidor_minecraft/config/fml.toml is not correct. Correcting
-[09Apr2025 18:43:32.020] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[09Apr2025 18:43:32.022] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
-[09Apr2025 18:43:32.195] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
-[09Apr2025 18:43:32.196] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[09Apr2025 18:43:32.198] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[09Apr2025 18:43:32.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[09Apr2025 18:43:32.318] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[09Apr2025 18:43:33.551] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[09Apr2025 18:43:39.806] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
-[09Apr2025 18:43:39.813] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
-[09Apr2025 18:43:40.433] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/PeruCraftX/servidor_minecraft/config/forge-common.toml is not correct. Correcting
-[09Apr2025 18:43:40.439] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[09Apr2025 18:43:40.439] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
-[09Apr2025 18:43:40.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Apr2025 18:43:41.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.2.21 Target: 40.3.0
-[09Apr2025 18:43:42.971] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Apr2025 18:43:43.104] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2341!/assets/.mcassetsroot' uses unexpected schema
-[09Apr2025 18:43:43.105] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2341!/data/.mcassetsroot' uses unexpected schema
-[09Apr2025 18:43:46.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09Apr2025 18:43:46.048] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09Apr2025 18:43:46.055] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09Apr2025 18:43:46.059] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09Apr2025 18:43:46.061] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09Apr2025 18:43:48.216] [Worker-Main-4/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[09Apr2025 18:43:49.645] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
-[09Apr2025 18:43:50.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[09Apr2025 18:43:50.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09Apr2025 18:43:50.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09Apr2025 18:43:50.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Apr2025 18:43:50.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09Apr2025 18:43:50.638] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09Apr2025 18:43:50.810] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09Apr2025 18:43:50.810] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[09Apr2025 18:43:50.811] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09Apr2025 18:43:50.813] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[09Apr2025 18:43:50.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[09Apr2025 18:43:50.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[09Apr2025 18:43:50.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[09Apr2025 18:43:50.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[09Apr2025 18:43:50.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[09Apr2025 18:43:50.850] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[09Apr2025 18:43:50.850] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[09Apr2025 18:43:50.851] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
-[09Apr2025 18:43:50.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
-[09Apr2025 18:43:50.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[09Apr2025 18:43:50.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[09Apr2025 18:43:50.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09Apr2025 18:44:03.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Apr2025 18:44:05.376] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:05.381] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:05.404] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:05.407] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:05.859] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:06.311] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:06.814] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:07.310] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:07.887] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:08.320] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:08.958] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:09.316] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:09.816] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Apr2025 18:44:10.322] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[09Apr2025 18:44:10.811] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[09Apr2025 18:44:11.314] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[09Apr2025 18:44:11.850] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[09Apr2025 18:44:12.387] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[09Apr2025 18:44:12.816] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[09Apr2025 18:44:13.312] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[09Apr2025 18:44:13.818] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[09Apr2025 18:44:14.331] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[09Apr2025 18:44:14.811] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[09Apr2025 18:44:15.311] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[09Apr2025 18:44:15.811] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[09Apr2025 18:44:16.313] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[09Apr2025 18:44:16.814] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[09Apr2025 18:44:17.323] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[09Apr2025 18:44:17.813] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[09Apr2025 18:44:18.311] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[09Apr2025 18:44:18.817] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[09Apr2025 18:44:19.345] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[09Apr2025 18:44:19.819] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[09Apr2025 18:44:20.317] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[09Apr2025 18:44:20.817] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[09Apr2025 18:44:21.314] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[09Apr2025 18:44:21.842] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[09Apr2025 18:44:22.313] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[09Apr2025 18:44:22.827] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[09Apr2025 18:44:23.320] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[09Apr2025 18:44:23.817] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[09Apr2025 18:44:24.329] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[09Apr2025 18:44:24.823] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[09Apr2025 18:44:25.314] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[09Apr2025 18:44:25.810] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[09Apr2025 18:44:26.336] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[09Apr2025 18:44:26.812] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[09Apr2025 18:44:27.321] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[09Apr2025 18:44:27.825] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[09Apr2025 18:44:28.323] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[09Apr2025 18:44:28.815] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[09Apr2025 18:44:29.349] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[09Apr2025 18:44:29.814] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[09Apr2025 18:44:30.310] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[09Apr2025 18:44:30.811] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[09Apr2025 18:44:31.315] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[09Apr2025 18:44:31.857] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[09Apr2025 18:44:32.318] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[09Apr2025 18:44:32.817] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[09Apr2025 18:44:33.314] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[09Apr2025 18:44:33.825] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[09Apr2025 18:44:34.316] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[09Apr2025 18:44:34.821] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[09Apr2025 18:44:35.310] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[09Apr2025 18:44:35.814] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[09Apr2025 18:44:36.325] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[09Apr2025 18:44:36.814] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[09Apr2025 18:44:37.324] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[09Apr2025 18:44:37.832] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[09Apr2025 18:44:38.366] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[09Apr2025 18:44:38.812] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[09Apr2025 18:44:39.312] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[09Apr2025 18:44:39.811] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[09Apr2025 18:44:40.311] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[09Apr2025 18:44:40.906] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[09Apr2025 18:44:41.319] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[09Apr2025 18:44:41.843] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[09Apr2025 18:44:42.376] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[09Apr2025 18:44:42.858] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[09Apr2025 18:44:43.312] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[09Apr2025 18:44:43.816] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[09Apr2025 18:44:44.319] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[09Apr2025 18:44:44.810] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[09Apr2025 18:44:45.326] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[09Apr2025 18:44:45.815] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[09Apr2025 18:44:46.317] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[09Apr2025 18:44:46.815] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[09Apr2025 18:44:47.311] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[09Apr2025 18:44:47.827] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[09Apr2025 18:44:48.315] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[09Apr2025 18:44:48.830] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[09Apr2025 18:44:49.342] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[09Apr2025 18:44:49.846] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[09Apr2025 18:44:50.311] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[09Apr2025 18:44:50.825] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[09Apr2025 18:44:51.340] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[09Apr2025 18:44:51.810] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[09Apr2025 18:44:52.313] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[09Apr2025 18:44:52.818] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[09Apr2025 18:44:53.393] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[09Apr2025 18:44:53.851] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[09Apr2025 18:44:54.313] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[09Apr2025 18:44:54.811] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[09Apr2025 18:44:55.317] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[09Apr2025 18:44:55.820] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[09Apr2025 18:44:56.314] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[09Apr2025 18:44:56.815] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[09Apr2025 18:44:57.319] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[09Apr2025 18:44:57.860] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[09Apr2025 18:44:58.332] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[09Apr2025 18:44:58.832] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[09Apr2025 18:44:59.311] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[09Apr2025 18:44:59.827] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[09Apr2025 18:45:00.309] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[09Apr2025 18:45:00.831] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[09Apr2025 18:45:01.319] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[09Apr2025 18:45:01.828] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[09Apr2025 18:45:01.889] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 58080 ms
-[09Apr2025 18:45:01.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (71.056s)! For help, type "help"
-[09Apr2025 18:45:01.905] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Apr2025 18:57:57.461] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5793e698[id=<null>,name=pedrosanxez,properties={},legacy=false] (/100.66.62.22:55495) lost connection: Disconnected
-[09Apr2025 19:01:15.006] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@122576ce[id=<null>,name=pedrosanxez,properties={},legacy=false] (/100.66.62.22:55981) lost connection: Disconnected
-[09Apr2025 19:02:01.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made pedrosanxez a server operator
-[09Apr2025 19:09:59.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
-[09Apr2025 19:09:59.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /home/codespace/.python/current/bin/python /workspaces/PeruCraftX/msx.py<--[HERE]
-[09Apr2025 19:10:14.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[09Apr2025 19:10:14.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[09Apr2025 19:10:14.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[09Apr2025 19:10:15.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09Apr2025 19:10:17.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09Apr2025 19:10:17.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09Apr2025 19:10:17.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09Apr2025 19:10:17.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09Apr2025 19:10:17.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09Apr2025 19:10:17.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Apr2025 19:15:29.975] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[09Apr2025 19:15:29.979] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.14 by Ubuntu
+[09Apr2025 19:15:30.118] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[09Apr2025 19:15:30.119] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/PeruCraftX/servidor_minecraft/mods/OptiFine-1.18.2_HD_U_H9_pre3.jar%2340!/
+[09Apr2025 19:15:30.123] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/PeruCraftX/servidor_minecraft/mods/OptiFine-1.18.2_HD_U_H9_pre3.jar
+[09Apr2025 19:15:30.125] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[09Apr2025 19:15:30.182] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/PeruCraftX/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[09Apr2025 19:15:30.191] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[09Apr2025 19:15:30.648] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[09Apr2025 19:15:30.649] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[09Apr2025 19:15:30.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[09Apr2025 19:15:30.652] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PeruCraftX/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[09Apr2025 19:15:30.786] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[09Apr2025 19:15:31.418] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[09Apr2025 19:15:31.429] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 360
+[09Apr2025 19:15:32.055] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[09Apr2025 19:15:34.051] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Apr2025 19:15:34.300] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[09Apr2025 19:15:34.302] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[09Apr2025 19:15:35.934] [main/FATAL] [cpw.mods.modlauncher.TransformerClassWriter/]: Failed to find class net/minecraft/client/renderer/texture/Tickable 
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.texture.Tickable
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-1.0.8.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchyFromFile(TransformerClassWriter.java:157) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:112) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.lambda$visit$0(TransformerClassWriter.java:185) ~[modlauncher-9.1.3.jar%235!/:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:184) ~[modlauncher-9.1.3.jar%235!/:?]
+	at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:388) ~[asm-tree-9.7.jar:?]
+	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:99) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformerClassWriter.getCommonSuperClass(TransformerClassWriter.java:59) ~[modlauncher-9.1.3.jar%235!/:?]
+	at org.objectweb.asm.SymbolTable.addMergedType(SymbolTable.java:1264) ~[asm-9.7.jar:?]
+	at org.objectweb.asm.Frame.merge(Frame.java:1311) ~[asm-9.7.jar:?]
+	at org.objectweb.asm.Frame.merge(Frame.java:1208) ~[asm-9.7.jar:?]
+	at org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1612) ~[asm-9.7.jar:?]
+	at org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1548) ~[asm-9.7.jar:?]
+	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:767) ~[asm-tree-9.7.jar:?]
+	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:647) ~[asm-tree-9.7.jar:?]
+	at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:468) ~[asm-tree-9.7.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:133) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100) ~[modlauncher-9.1.3.jar%235!/:?]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1017) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1007) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:895) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:867) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:795) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-9.1.3.jar%235!/:9.1.3+9.1.3+main.9b69c82a]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:637) ~[?:?]
+	at java.lang.Class.forName(Class.java:545) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:32) ~[fmlloader-1.18.2-40.2.21.jar%2318!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+	Suppressed: java.lang.ClassNotFoundException: net.minecraft.client.renderer.texture.Tickable
+		at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:252) ~[securejarhandler-1.0.8.jar:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchyFromFile(TransformerClassWriter.java:149) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:112) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.lambda$visit$0(TransformerClassWriter.java:185) ~[modlauncher-9.1.3.jar%235!/:?]
+		at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+		at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+		at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:184) ~[modlauncher-9.1.3.jar%235!/:?]
+		at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:388) ~[asm-tree-9.7.jar:?]
+		at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:99) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.TransformerClassWriter.getCommonSuperClass(TransformerClassWriter.java:59) ~[modlauncher-9.1.3.jar%235!/:?]
+		at org.objectweb.asm.SymbolTable.addMergedType(SymbolTable.java:1264) ~[asm-9.7.jar:?]
+		at org.objectweb.asm.Frame.merge(Frame.java:1311) ~[asm-9.7.jar:?]
+		at org.objectweb.asm.Frame.merge(Frame.java:1208) ~[asm-9.7.jar:?]
+		at org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1612) ~[asm-9.7.jar:?]
+		at org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1548) ~[asm-9.7.jar:?]
+		at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:767) ~[asm-tree-9.7.jar:?]
+		at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:647) ~[asm-tree-9.7.jar:?]
+		at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:468) ~[asm-tree-9.7.jar:?]
+		at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:133) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250) ~[securejarhandler-1.0.8.jar:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100) ~[modlauncher-9.1.3.jar%235!/:?]
+		at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1017) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1007) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:895) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:867) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:795) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2314!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+		at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-9.1.3.jar%235!/:9.1.3+9.1.3+main.9b69c82a]
+		at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-1.0.8.jar:?]
+		at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+		at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-1.0.8.jar:?]
+		at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:637) ~[?:?]
+		at java.lang.Class.forName(Class.java:545) ~[?:?]
+		at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:32) ~[fmlloader-1.18.2-40.2.21.jar%2318!/:?]
+		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
+		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[09Apr2025 19:15:35.946] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/texture/TextureAtlas (java.lang.RuntimeException: Cannot find class net/minecraft/client/renderer/texture/Tickable)
+[09Apr2025 19:15:35.946] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.texture.TextureAtlas was not found fusion.mixins.json:modernfix.TextureAtlasMixinModernFix
